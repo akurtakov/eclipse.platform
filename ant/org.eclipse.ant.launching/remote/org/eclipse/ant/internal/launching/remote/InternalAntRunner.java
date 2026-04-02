@@ -549,7 +549,7 @@ public class InternalAntRunner {
 	}
 
 	/**
-	 * Fires build started event on the project.
+	 * Fires the build started event to all registered build listeners.
 	 */
 	private void fireBuildStarted(Project project) {
 		project.fireBuildStarted();
